@@ -1,1 +1,1 @@
-# TickTack-Game with HTML, CSS< Vanila Javascript for Practice Purpose.
+# TickTack-Game with HTML, CSS, Vanila Javascript for Practice Purpose.
