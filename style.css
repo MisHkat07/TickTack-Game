@@ -1,5 +1,6 @@
 body {
-   background-color: #021422;
+    box-sizing: border-box;
+    background-color:#b0dbfc;
    font-family: monospace;
    display: flex;
    flex-direction: column;
@@ -8,7 +9,7 @@ body {
    height: 100vh;
 }
 h2 {
-   color: #ffffff;
+   color: #000000;
 }
 .item {
    background-color: #89c0ffb0;
@@ -16,12 +17,21 @@ h2 {
    height: 100px;
    border: #ffffff;
    border-radius: 5px;
-   border: 1px solid rgb(12, 197, 188);
+       background-color: #ecf0f3;
+    
+    box-shadow:inset 5px 5px 12px #ffffff,
+                     5px 5px 12px rgba(0,0,0,.16);
+     display: grid;
    font-size: 100px;
    display: flex;
    align-items: center;
    justify-content: center;
-   color: #ffffff;
+   color: #0400ff;
+   transition: 0.5s;
+}
+.item:hover{
+    cursor: pointer;
+      transform: translateY(2px);
 }
 .main {
    height: 300px;
@@ -35,16 +45,19 @@ p {
    margin: 5px;
    text-align: center;
    font-size: 25px;
-   color: rgb(6, 231, 17);
+   color: rgb(0, 117, 6);
    font-weight: 600;
 }
 button {
+   margin-top: 15px;
    font-size: 20px;
    font-weight: 600;
-   background-color: rgb(2, 57, 78);
-   border: 2px solid rgb(70, 250, 235);
+   background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+    5px 5px 12px rgba(0,0,0,.16);
+    border: none;
    border-radius: 5px;
-   color: #ffffff;
+   color: #00443b;
    padding: 5px 10px;
    cursor: pointer;
 }

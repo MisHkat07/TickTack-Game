@@ -11,7 +11,7 @@ for (let i = 0; i < 9; i++) {
          item[i].textContent = 'X';
          x++;
          if (item[i].textContent == 'X') {
-            item[i].style.color = '#ffffff';
+            item[i].style.color = '#0400ff';
          }
       } else {
          item[i].textContent = 'O';
